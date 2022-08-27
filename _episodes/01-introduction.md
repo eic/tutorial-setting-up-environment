@@ -3,11 +3,12 @@ title: "Introduction"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What is the EIC environment?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Understand what we mean with the EIC environment, or `eic-shell`."
+- "Appreciate the benefits of containers as development environment."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "The EIC environment `eic-shell` is a singularity/docker container with a curated selection of software components."
 ---
 FIXME
 
