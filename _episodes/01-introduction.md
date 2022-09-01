@@ -10,7 +10,11 @@ objectives:
 keypoints:
 - "The EIC environment `eic-shell` is a singularity/docker container with a curated selection of software components."
 ---
-FIXME
+
+In this episode we will cover two aspects of the EIC Software Environment:
+- the actual commands you can run to access the software components we rely on for simulations and analysis,
+- the services and repositories you will want to contribute to in order to work collaboratively.
+
+Much of the work we do at the EIC relies on both of these collaborative environments.
 
 {% include links.md %}
-
