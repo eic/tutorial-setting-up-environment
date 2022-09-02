@@ -79,10 +79,7 @@ bash install.sh
 - Verify that you can run some of the software dependencies that are installed in `eic-shell`. For example, run the command `ddsim --help` to get some informaton on one way to run Geant4 simulations on DD4hep-based geometries. Use the command `which ddsim` to see where `ddsim` is located.
 - Advanced users: Based on the location of `ddsim` found in the previous step, verify that this is a symbolic link to a different location under `/opt/software`. Verify that the version in the path of that location agrees with the version specified in the `spack.yaml` file.
 
-TODO: disable ROOT web TBrowser
-TODO: TBrowser not running inside container on Mac:
-  ```console
-  root [0] TBrowser v
-  Warning in <TBrowser::TBrowser>: The ROOT browser cannot run in batch mode 
-  ```
+## Notes on starting graphical programs
+Graphical programs work just as well inside the `eic-shell` environment as outside, with the exception of docker on Mac where some additional work is needed. On a Mac it is therefore often easier to open ROOT files outside the container.
+
 {% include links.md %}
