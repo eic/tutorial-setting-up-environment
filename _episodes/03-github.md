@@ -3,35 +3,36 @@ title: "Using GitHub with EIC Software"
 teaching: 0
 exercises: 0
 questions:
-- "What is the EIC environment?"
+- "How do we use GitHub within the EIC community?"
 objectives:
-- "Understand what we mean with the EIC environment, or `eic-shell`."
-- "Appreciate the benefits of containers as development environment."
+- "Several repositories contain the key geometry, simulation, reconstruction, and analysis software."
+- "Working with repositories requires membership of the EIC organization on GitHub."
+- "Issue reports and pull requests are ways to collaborate virtually on collaboration software tools."
 keypoints:
-- "The EIC environment `eic-shell` is a singularity/docker container with a curated selection of software components."
+- "We use several tools on GitHub to ensure we keep the overview of who does what work."
 ---
-
 ## Where are repositories located?
 - GitHub: https://github.com/eic
 - eicweb: https://eicweb.phy.anl.gov/EIC (only continuous integration)
 - We will use GitHub as the main code repository tool. The top of the github.com/eic page has several 'pinned' repositories that are most important. You can also see where most activity is happening based on the ordering of the repositories in the list.
 - You can 'subscribe' to repositories to be notified of activity. This is helpful if you wish to remain up-to-date on the activity. You can 'star' repositories as another way to find them easily.
 
-## Exercise 1:
-- Verify that are a member of the EIC organization on GitHub: Do you see the members-only page with the grid of software meetings? If not, send you GitHub user name to one of the conveners.
-- Check which teams you are in: Enter the search terms "members:me" into the search box to see only the teams you are a member of. If you are not in EPIC Devs, request to be added at https://github.com/orgs/eic/teams/epic-devs.
-- Choose one repository to subscribe to, at some level of activity.
+> Exercise 1:
+> - Verify that are a member of the EIC organization on GitHub: Do you see the members-only page with the grid of software meetings? If not, send you GitHub user name to one of the conveners.
+> - Check which teams you are in: Enter the search terms "members:me" into the search box to see only the teams you are a member of. If you are not in EPIC Devs, request to be added at https://github.com/orgs/eic/teams/epic-devs.
+> - Choose one repository to subscribe to, at some level of activity.
+{: .challenge}
 
 ## What is the proper way to work with these repositories?
 - Duplication of work is avoided when everyone knows what is going on.
 - A typical workflow starts from the filing of an issue with a feature request or a bug report. The issue generates some discussion (feel free to tag people you want to notify). Then a branch is created associated with the issue.
 
-## Exercise 2:
-- Think of one issue that is related to the analysis or detector you are mainly working on.
-- Think of a good title that summarizes what the issue is.
-- Open an issue in the relevant repository and fill out the provided template.
-- Tag one person (who is not the instructor) who's input you would like on this issue.
-
+> Exercise 2:
+> - Think of one issue that is related to the analysis or detector you are mainly working on.
+> - Think of a good title that summarizes what the issue is.
+> - Open an issue in the relevant repository and fill out the provided template.
+> - Tag one person (who is not the instructor) who's input you would like on this issue.
+{: .challenge}
 
 - What are the checks that are run on pull requests?
 
