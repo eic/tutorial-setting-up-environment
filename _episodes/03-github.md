@@ -22,7 +22,7 @@ You can 'watch' repositories to be notified of activity. This is helpful if you 
 
 > Exercise 1:
 > - Verify that are a member of the EIC organization on GitHub: Do you see the members-only page with the grid of software meetings? If not, send you GitHub user name to one of the conveners.
-> - Check which teams you are in: Enter the search terms "members:me" into the search box to see only the teams you are a member of. If you are not in EPIC Devs, request to be added at https://github.com/orgs/eic/teams/epic-devs.
+> - Check which teams you are in: Enter the search terms "members:me" into the search box to see only the teams you are a member of. If you are not in ePIC Devs, request to be added at https://github.com/orgs/eic/teams/epic-devs.
 > - Choose one repository to subscribe to, at some level of activity.
 {: .challenge}
 
