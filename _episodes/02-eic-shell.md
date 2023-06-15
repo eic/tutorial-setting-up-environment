@@ -80,7 +80,7 @@ There are a few directories that are shared between the container and the host o
 
 All programs that are installed in the container, are accessible under the `/usr/local` directory tree. This is a standard location for programs that are not installed by the operating system's package manager, which is how we install the dependencies for the EIC software stack. It also means that these programs are automatically found by the `eic-shell` without needing to modify the search path.
 
-The jumble of files in `/usr/local` are in fact merely a view into software installed in a more organized fashion in `/opt/software`, potentially for different compilers, operating systems, etc. The full definition of all software installed in `/opt/software` is in `/opt/spack-environment/spack.yaml`, the ultimate definition of the EIC standard environment.
+The jumble of files in `/usr/local` are in fact merely a view into software installed in a more organized fashion in `/opt/software`, potentially for different compilers, operating systems, etc. The full definition of all software installed in `/opt/software` is in `/opt/spack-environment/dev/spack.yaml`, the ultimate definition of the EIC standard environment.
 
 > Exercise:
 > - Using `cd` and `ls`, check that you can navigate to various directories in the container, and that you can access the directories for your own work.
