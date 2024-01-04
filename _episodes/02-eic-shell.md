@@ -13,7 +13,7 @@ keypoints:
 ## Why a EIC standard environment?
 - EIC software is modular, so not just a matter of a single `make install` command but close to 20 necessary dependencies and 10 EIC-specific packages.
 - Laboratory operating systems are stable and (therefore) slow to upgrade to new versions, even though we need those version in the modern software we write:
-  - gcc-11 or gcc-12 for C++17 concepts and ranges, C++21 for filtered ranges, and C++23 for zipped ranges
+  - gcc-11 or gcc-12 for C++17 ranges, C++20 for concepts and filtered ranges, and C++23 for zipped ranges
   - underlying dependencies like ACTS, DD4hep, podio, etc, each have many options, some of which are important to set right (or you end up with a DD4hep that doesn't do some of the things we need it to do)
 - The standard environment gives all users access to exactly the same environment that is used for benchmarks, productions, and continuous integration on the github and gitlab servers.
 - The standard environments are versioned and can be retrieved (or rebuilt) at a later time in case you wish to revisit an old result. Specifying the specific version of the standard environment you used for a particular plot will definitively determine what versions of e.g. geant4 and ROOT you used.
