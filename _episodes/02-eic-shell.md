@@ -1,7 +1,7 @@
 ---
 title: "The EIC Software Environment"
-teaching: 10
-exercises: 20
+teaching: 5
+exercises: 5
 questions:
 - "What is the EIC environment?"
 objectives:
@@ -12,7 +12,7 @@ keypoints:
 ---
 ## Why a EIC standard environment?
 - EIC software is modular, so not just a matter of a single `make install` command but close to 20 necessary dependencies and 10 EIC-specific packages.
-- Laboratory operating systems are stable and (therefore) slow to upgrade to new versions, even though we need those version in the modern software we write:
+- Laboratory operating systems are stable and (therefore) slow to upgrade to new versions, even though we need those versions in the modern software we write:
   - gcc-11 or gcc-12 for C++17 ranges, C++20 for concepts and filtered ranges, and C++23 for zipped ranges
   - underlying dependencies like ACTS, DD4hep, podio, etc, each have many options, some of which are important to set right (or you end up with a DD4hep that doesn't do some of the things we need it to do)
 - The standard environment gives all users access to exactly the same environment that is used for benchmarks, productions, and continuous integration on the github and gitlab servers.
@@ -27,7 +27,7 @@ keypoints:
 
 ## How to get `eic-shell`, the EIC standard environment, and what it is?
 - The EIC standard environment is accessed with the `eic-shell` command. That will start an `eic-shell` session in the standard environment.
-- To install the `eic-shell` command in the directory `~/eic/` (which you may need to crate), you can run the following command:
+- To install the `eic-shell` command in the directory `~/eic/` (which you may need to create), you can run the following command:
 ```console
 cd ~/eic
 curl --location https://get.epic-eic.org | bash
@@ -40,7 +40,7 @@ bash install.sh
 ```
 - The install script will search for several components that are required (see the prerequisites):
   - which operating system you are running (linux and mac are supported),
-  - whether you have singularity or docker installed (see prerequisites),
+  - whether you have singularity/apptainer or docker installed (see prerequisites),
   - whether you have access to the Cern VM file system at `/cvmfs` (typically available on clusters, and can be easily installed on individual linux systems, see https://cernvm.cern.ch/fs/).
 - If you are on a system that requires downloading the full container (up to 10 GB), this may take a while and no progress bar is shown.
 - The install script will create a new file `./eic-shell` which will start the `eic-shell` environment, i.e. the EIC standard environment.
