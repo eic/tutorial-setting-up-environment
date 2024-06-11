@@ -42,7 +42,7 @@ bash install.sh
   - which operating system you are running (linux and mac are supported),
   - whether you have singularity/apptainer or docker installed (see prerequisites),
   - whether you have access to the Cern VM file system at `/cvmfs` (typically available on clusters, and can be easily installed on individual linux systems, see https://cernvm.cern.ch/fs/).
-- If you are on a system that requires downloading the full container (up to 10 GB), this may take a while and no progress bar is shown.
+- If you are on a system that requires downloading the full container (up to 13 GB), this may take a while and no progress bar is shown.
 - The install script will create a new file `./eic-shell` which will start the `eic-shell` environment, i.e. the EIC standard environment.
 
 > Note: An alternative location for downloading this script is at https://eicweb.phy.anl.gov/containers/eic_container/-/raw/master/install.sh, in case you experience difficulties accessing the custom domain.
