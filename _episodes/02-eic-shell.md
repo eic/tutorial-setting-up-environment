@@ -64,11 +64,11 @@ cd ~/eic
 ./eic-shell
 ```
 or you can start it from any directory with `~/eic/eic-shell` (if you used the same directory structure).
-- When you have successfully started `eic-shell` you should see a `jug_xl> ` prompt, indicating that you are now **inside** the EIC standard environment.
+- When you have successfully started `eic-shell` you should see a `jug_dev> ` prompt, indicating that you are now **inside** the EIC standard environment.
 - Pro-tip: You can also add the directory where `eic-shell` is installed to your search path, so you can start `eic-shell` from anywhere. Or you can install `eic-shell` in a directory that is already in your search path.
 
 > Exercise:
-> - Run the `eic-shell` script from the current directory. You should get the `jug_xl> ` prompt. Exit the environment again.
+> - Run the `eic-shell` script from the current directory. You should get the `jug_dev> ` prompt. Exit the environment again.
 > - Take a look at the running options with `eic-shell --help`. If you do not have a `/cvmfs` directory on your system, you will need to run `eic-shell --upgrade` periodically to ensure that you are staying up to date.
 > - Advanced users: Set up your environment to be able to run `eic-shell` from anywhere.
 {: .challenge}
