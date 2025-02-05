@@ -6,11 +6,12 @@ In advance of the training session, please ensure that
 1. Your GitHub account is a member of the [EIC organization](https://github.com/eic) on GitHub
 - Email [the EIC software conveners](mailto:eic-software-l-request@lists.bnl.gov) with your GitHub account to be added
 1. You have singularity/apptainer or docker (on Mac) installed and working
-- `module load singularity` (on most JLab or BNL systems) (preferred option)
-- Local system options:
+- `module load singularity` (on JLab iFarm)
+- Provided by default on (on BNL SDCC)
+- On your local system:
   - systems that use cvmfs or download images can install **singularity or apptainer** (see [here](https://apptainer.org/docs/user/main/quick_start.html))
   - systems that download images can install **docker** (see [here](https://www.docker.com/))
-- you should at a minimum be able to run either of the following commands and open a shell:
+- You should at a minimum be able to run either of the following commands and open a shell:
   - `singularity run docker://alpine`
   - `docker run --rm -it alpine`
 1. Download `eic-shell`:
