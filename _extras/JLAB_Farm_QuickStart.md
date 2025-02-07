@@ -27,3 +27,4 @@ to do both steps at once.
 
 See this [Service Now](https://jlab.servicenowservices.com/scicomp?id=kb_article_view&sysparm_article=KB0015066) documentation for further pointers and assistance.
 
+For running larger/longer simulation/reconstruction jobs, you may find the [scripts](https://github.com/eic/snippets/tree/main/JLab_Farm_Scripts) in the snippets repository useful.
