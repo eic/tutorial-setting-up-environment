@@ -1,6 +1,10 @@
 ---
 title: Setup
 ---
+
+> Note: If you are using the [BNL SDCC](https://eic.github.io/tutorial-setting-up-environment/BNL_SDCC_QuickStart/index.html)or the [JLab Farm](https://eic.github.io/tutorial-setting-up-environment/JLAB_Farm_QuickStart/index.html), you may find the quick start info in the extras section useful if you are new to these systems.
+{: .callout}
+
 In advance of the training session, please ensure that
 1. You have a GitHub account ([sign up here](https://github.com/signup))
 1. Your GitHub account is a member of the [EIC organization](https://github.com/eic) on GitHub
