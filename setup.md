@@ -10,8 +10,7 @@ In advance of the training session, please ensure that
 1. Your GitHub account is a member of the [EIC organization](https://github.com/eic) on GitHub
 - Email [the EIC software conveners](mailto:eic-software-l-request@lists.bnl.gov) with your GitHub account to be added
 1. You have singularity/apptainer or docker (on Mac) installed and working
-- `module load singularity` (on JLab iFarm)
-- Provided by default on BNL SDCC, no need to do module load!
+- Provided by default on BNL SDCC and the JLab iFarm, check by trying the command `singularity` and verify that you get an info dump on the usage of the command
 - On your local system:
   - systems that use cvmfs or download images can install **singularity or apptainer** (see [here](https://apptainer.org/docs/user/main/quick_start.html))
   - systems that download images can install **docker** (see [here](https://www.docker.com/))
