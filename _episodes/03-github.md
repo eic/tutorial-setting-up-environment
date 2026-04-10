@@ -11,6 +11,11 @@ objectives:
 keypoints:
 - "We use several tools on GitHub to ensure we keep the overview of who does what work."
 ---
+
+## How do I get added to @eic organization on GitHub?
+
+In order to contribute, you need your GitHub account to be a member of the [EIC organization](https://github.com/eic) on GitHub. If it is not, follow instructions [here](https://eic.github.io/documentation/getstarted).
+
 ## Where are repositories located?
 The main repositories are located on two locations:
 - the GitHub service contains most user-facing repositories: https://github.com/eic.
@@ -21,7 +26,7 @@ We will use GitHub as the main code repository tool. The top of the github.com/e
 You can 'watch' repositories to be notified of activity. This is helpful if you wish to remain up-to-date on the activity. You can 'star' repositories as another way to find them easily.
 
 > Exercise 1:
-> - Verify that are a member of the EIC organization on GitHub: Do you see the members-only page with the grid of software meetings? If not, send you GitHub user name to the [conveners](mailto:eic-software-l-request@lists.bnl.gov).
+> - Verify that are a member of the EIC organization on GitHub: Do you see the members-only page with the grid of software meetings? If not, see previous section.
 > - Check which teams you are in: Enter the search terms "members:me" into the search box in the Teams tab to see only the teams you are a member of. If you are not in ePIC Devs, request to be added at https://github.com/orgs/eic/teams/epic-devs.
 > - Choose one repository to subscribe to, at some level of activity.
 {: .challenge}
