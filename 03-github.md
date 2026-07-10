@@ -62,7 +62,7 @@ Duplication of work is avoided when everyone knows what is going on.
 1. Once you've generated a pull request, continuous integration tests are run to ensure compatibility. The reviewer will approve the changes, merging your code into the main branch.
 1. After the pull request is approved and the code is merged, you can delete your branch using the browser or via the command line.
 
-A good example of the above workflow is shown in detail in the [JANA2 contributing tutorial](https://eic.github.io/tutorial-jana2/05-contributing/index.html) for the EICrecon repository.
+A good example of the above workflow is shown in detail in the [JANA2 contributing tutorial](https://eic.github.io/tutorial-jana2/05-contributing.html) for the EICrecon repository.
 
 ::::::::::::::::::::::::::::::::::::::::::: challenge
 
