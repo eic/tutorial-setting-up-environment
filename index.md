@@ -1,19 +1,15 @@
 ---
-site: sandpaper::sandpaper_site
+layout: lesson
+root: .  # Is the only page that doesn't follow the pattern /:path/index.html
+permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
+Welcome to the EIC Tutorial on setting up on your environment!
 
-Welcome to the EIC Tutorial on setting up your environment!
+This is typically the first tutorial in a series. It will help you in setting up your environment to be productive in the EIC community.
 
-This is typically the first tutorial in the [series of EIC tutorials](https://eic.github.io/documentation/tutorials.html).
-It will help you set up your environment to be productive in the EIC community. Once your environment
-is working, good next steps are the [Analysis tutorial](https://eic.github.io/tutorial-analysis/) and
-the [File Access tutorial](https://eic.github.io/tutorial-file-access/).
+> ## Prerequisites
+>
+> Please take a look in the setup section for necessary prerequisites for this lesson.
+{: .prereq}
 
-::::::::::::::::::::::::::::::::::::::::::::: prereq
-
-## Prerequisites
-
-Please take a look at the [Setup](learners/setup.md) page for necessary prerequisites for this
-lesson.
-
-:::::::::::::::::::::::::::::::::::::::::::::
+{% include links.md %}
